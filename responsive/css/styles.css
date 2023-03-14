@@ -6,7 +6,7 @@ html {
     color: #750027;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-align: center;
     font-family: "gelica", sans-serif;
     font-weight: 500;
@@ -19,6 +19,10 @@ h1 {
 
 h2 {
     margin-top: 0;
+}
+
+h4 {
+    text-align: left;
 }
 
 #stars {
@@ -36,20 +40,19 @@ img {
     border-radius: 30px;
 }
 
-h2.statshead {
+.statshead h4 {
     margin-bottom: 0;
-    text-align: left;
 }
 
-
-/*
-.intro {
-    background-color:#ffe2cb;
+.statshead, #shop {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.dietary {
-    background-color:#ffe2cb;
-}*/
+.intro, .dietary, .credits {
+    background-color:#fff3e9;
+}
 
 p, li {
     font-size: 10.5pt;
@@ -62,7 +65,7 @@ li {
 }
 
 div {
-    background-color: rgb(255, 245, 241);
+    background-color: rgb(255, 251, 249);
     border-radius: 30px;
     padding: 30px;
     margin: 20px;
@@ -82,12 +85,39 @@ div {
     display: none;
 }
 
+a {
+    margin-left: 10px;
+    color:#B2054B;
+}
+
+.shopping li {
+    list-style: none;
+}
+
+#diet {
+    max-width: 545px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .recipe {
     background-color: #B2054B;
     color: white;
 }
 
-@media (min-width: 900px) {
+#recipee {
+    max-width: 545px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.last {
+    background-color: #ffe2cb;
+}
+
+@media (min-width: 850px) {
     #container {
         display: grid;
         width:800px;
@@ -134,7 +164,7 @@ div {
         display: block;
         border-radius: 30px;
         width: 400px;
-        height: 363px;
+        height: 417px;
         object-fit: cover;
     }
     
